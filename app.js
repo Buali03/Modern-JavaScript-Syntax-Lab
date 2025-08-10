@@ -187,7 +187,7 @@ const localLangConfig = null; // Change to 'es', 'fr', etc., or leave it `null`.
 
 const lang = localLangConfig || 'en'
 
-console.log("\nExercise 10:")
+console.log("\nExercise 10.1:")
 console.log("Choosen language: " + lang)
 
 // ! 10.2: Set website theme
@@ -210,5 +210,20 @@ const savedUserTheme = null; // Change to 'dark', etc., or leave it `null`.
 
 const theme = savedUserTheme || 'light'
 
-console.log("\nExercise 11:")
+console.log("\nExercise 10.2:")
 console.log("User theme: " + theme)
+
+// ! Exercise 11:
+// a. Use optional chaining in a console.log so that a console log of
+//    `adventurer.cat.age` returns `undefined` instead of an error.
+//
+// Starting code (don't modify this):
+
+const adventurer = {
+  name: 'Alice',
+};
+
+// Your code here:
+
+console.log("\nExercise 11:")
+console.log("Adventurer cat age: " + adventurer.cat?.age)
